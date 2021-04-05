@@ -20,8 +20,8 @@ function draw() {
 
   text("!! TRY TO DEFEAT YAM !!", 140, 30);
   
-  text("Jeevan", 137, 50);
-  text("Yaaaaamniiii", 220, 50);
+  text("Yaaaaamniiii", 123, 50);
+  text("Jeevan", 235, 50);
   
   text(computerScore, 150, 70);
   text(playerScore, 250, 70);
