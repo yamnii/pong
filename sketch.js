@@ -64,7 +64,7 @@ function draw() {
     gameState = "serve";
   }
   
-  if(playerScore === 5 || computerScore === 1) {
+  if(playerScore === 5 || computerScore === 5) {
     gameState = "over";
     text("GAME OVER", 170, 150);
     text("Press 'R' to restart the game", 130, 180);
