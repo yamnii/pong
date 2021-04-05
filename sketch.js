@@ -16,7 +16,7 @@ function setup(){
 }
 
 function draw() {
-  background("white");
+  background("maroon");
 
   text("!! TRY TO DEFEAT YAM !!", 140, 30);
   
