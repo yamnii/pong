@@ -18,6 +18,9 @@ function setup(){
 function draw() {
   background("white");
   
+  text("Jeevan", 150, 50);
+  text("Yaaaaamniiii", 250, 50);
+  
   text(computerScore, 150, 100);
   text(playerScore, 250, 100);
   
