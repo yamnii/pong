@@ -56,6 +56,8 @@ function draw() {
       text("YOU'RE LOOSING BABY :(", 230, 280);
       text("FOCUS FOCUS ;)", 252, 300);
     }
+
+    text("Press 'Space' to serve", 150, 180);
   }
   if(keyDown("space") && gameState === "serve") {
     serveball();
