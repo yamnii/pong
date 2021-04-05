@@ -42,6 +42,19 @@ function draw() {
   }
   
   if(gameState === "serve") {
+    if(computerScore === 1) {
+      text("LOL ..", 300, 280);
+    }
+    else if(computerScore === 2) {
+      text("OH NO !! :D", 270, 280);
+      text("IT'S ALRIGHT JEEVAN ..TRY AGAIN", 210, 300);
+    }
+    else if(computerScore === 3) {
+      text("KEEP AN EYE ON SCORE J ^_^", 220, 280);
+    }
+    else if(computerScore === 4) {
+      text("YOU'RE LOOSING BABY", 230, 280);
+    }
     text("Press 'Space' to serve", 150, 180);
   }
   
@@ -71,6 +84,9 @@ function draw() {
   
   if(playerScore === 5 || computerScore === 5) {
     gameState = "over";
+    text("BUAHAHAHAH !!!!!! I TOLD YOU ..", 210, 280);
+    text("YOU CAN'T DEFEAT ME BABY", 220, 300);
+    text("YOU CAN'T DEFEAT ME YAM", 221, 320);
     text("GAME OVER", 170, 150);
     text("Press 'R' to restart the game", 130, 180);
   }
