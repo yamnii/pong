@@ -1,4 +1,4 @@
-nvar playerPaddle;
+var playerPaddle;
 var computerPaddle;
 var ball;
 
@@ -18,7 +18,7 @@ function setup(){
 function draw() {
   background("maroon");
 
-  text("!! TRY TO DEFEAT YAM !!", 140, 30);
+  text("!! TRY TO DEFEAT YAM !! (You have 5 chances :p)", 80, 30);
   
   text("Yaaaaamniiii", 123, 50);
   text("Jeevan", 235, 50);
