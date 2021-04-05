@@ -53,11 +53,10 @@ function draw() {
       text("KEEP AN EYE ON SCORE J ^_^", 220, 280);
     }
     else if(computerScore === 4) {
-      text("YOU'RE LOOSING BABY", 230, 280);
+      text("YOU'RE LOOSING BABY :(", 230, 280);
+      text("FOCUS FOCUS ;)", 252, 300);
     }
-    text("Press 'Space' to serve", 150, 180);
   }
-  
   if(keyDown("space") && gameState === "serve") {
     serveball();
     gameState = "play";
@@ -86,7 +85,7 @@ function draw() {
     gameState = "over";
     text("BUAHAHAHAH !!!!!! I TOLD YOU ..", 210, 280);
     text("YOU CAN'T DEFEAT ME BABY", 220, 300);
-    text("YOU CAN'T DEFEAT ME YAM", 221, 320);
+    text("YOU CAN'T DEFEAT YAAAAAAAM", 212, 320);
     text("GAME OVER", 170, 150);
     text("Press 'R' to restart the game", 130, 180);
   }
