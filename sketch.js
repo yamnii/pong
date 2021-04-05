@@ -1,4 +1,4 @@
-var playerPaddle;
+nvar playerPaddle;
 var computerPaddle;
 var ball;
 
